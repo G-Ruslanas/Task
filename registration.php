@@ -5,7 +5,6 @@ include ("functions.php");
 <?php
 if($_SERVER['REQUEST_METHOD'] == "POST"){
     global $conn;
-    $date = mysqli_real_escape_string($conn,$_POST['Date']);
     $name = mysqli_real_escape_string($conn,$_POST['Name']);
     $email = mysqli_real_escape_string($conn,$_POST['Emails']);
     $password = mysqli_real_escape_string($conn,$_POST['Password']);
