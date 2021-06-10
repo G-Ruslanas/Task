@@ -17,4 +17,4 @@ In application there are two types of users:
 3. Important step is to create the database, which is called "visma", you can do it after you complete the second step by running the command: mysql -u root -p => press enter, for empty password and type "create database visma;"
 4. When all steps will be completed, after first visit to the application automatically two tables will be created and one record will be inserted into the users table, which will let you log in to the system with: email = ruslanas.g21@gmail.com, password = slaptaslabai, this will allow you to see all functionality, which is provided for medical personnel. To see functionality for a typical user, log out and create a new user.
 # Database
-For this project was user MySQL database: httt://localhost/phpmyadmin
+For this project was used MySQL database: httt://localhost/phpmyadmin
