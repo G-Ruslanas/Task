@@ -1,15 +1,15 @@
 # About
 This is a PHP application, where a user has a opportunity to register for vaccination. In application there are two types of users:
-1. typical user, who can:
-  a. Register;
-  b. Login;
-  c. Register for Vaccination;
-  d. See details about personal appointment, e.g. delete, edit;
-2. medical personnel, who can:
-  a. All same things as typical user plus...;
-  b. See all registered people for vaccination;
-  c. Print list of appointment for specific date, sorted by time;
-  d. Export and Import appointments in .CSV format;
+1. typical user, who can: <br>
+  a. Register; <br>
+  b. Login; <br>
+  c. Register for Vaccination; <br>
+  d. See details about personal appointment, e.g. delete, edit; <br>
+2. medical personnel, who can: <br>
+  a. All same things as typical user plus...; <br>
+  b. See all registered people for vaccination; <br>
+  c. Print list of appointment for specific date, sorted by time; <br>
+  d. Export and Import appointments in .CSV format; <br>
 # Instructions
 1. Run command: php -S localhost:port -t your_folder, e.g. php -S localhost:8000 -t C:\xampp\htdocs\Visma
 2. Navigate to the folder where your MySQL is installed, go to the bin folder and run command: mysqld; to start MySQL;
