@@ -1,5 +1,5 @@
 # About
-This is a PHP application, where a user has a opportunity to register for vaccination. 
+This is a PHP application, where a user has an opportunity to register for vaccination. 
 In application there are two types of users:
 1. typical user, who can: <br>
   a. Register; <br>
