@@ -63,7 +63,7 @@ if(isset($_SESSION['message2'])){
         <form method="post" action="edit.php?id=<?php echo $_GET['id']?>" enctype="multipart/form-data">
 <?php
             global $conn;
-            $id = $_GET['id'];
+            $id = mysqli_real_escape_string($conn, $_GET['id']);
             $sql = "SELECT * FROM registrations where id = '$id'";
             $result = $conn->query($sql);
             while($row = $result->fetch_assoc()){
